@@ -1,0 +1,269 @@
+body
+{
+	background: #d9d9dd;
+  font-family: 'Courgette';
+  text-align: center;
+}
+header
+{
+	width: 1000px;
+	height: 175px;
+	margin: 0 auto;
+}
+.zaHeader
+{
+	width: 1000px;
+	height: 50px;
+	background-color: #909098;
+	margin: 0 auto;
+}
+
+main
+{
+	width: 1000px;
+	height: 600px;
+	background-color: white;
+	margin: 0 auto;
+}
+.zaNav
+{
+	min-height: 600px;
+  max-height: 600px;
+	min-width: 200px;
+  max-width: 200px;
+}
+.zaBody
+{
+  text-align: center;
+  min-height: 600px;
+  max-height: 600px;
+  min-width: 800px;
+  max-width: 800px;
+}
+
+footer
+{
+	width: 1000px;
+	height: 50px;
+	background-color: #909098;
+	margin: 0 auto;
+
+}
+.paragrafFooter
+{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    word-spacing: 10px;
+    text-shadow: 3px 2px #78fca1; 
+    padding: 20px;
+
+}
+
+/*CSS ZA NAV */
+ul {
+    font-size: 20px;
+    font-weight: bold;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #78fca1;
+    border: 1px solid #555;
+    height: 596px; /* Full height */
+    width: 196px;
+}
+li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+}
+li a {
+    display: block;
+    background-color: #78fca1;
+    padding: 8px 16px;
+    text-decoration: none;
+    color :black;
+}
+li a.active {
+    background-color: #909098;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+li:last-child {
+    border-bottom: none;
+}
+
+/*CSS ZA DROPDOWN*/
+.dropbtn {
+   	display: block;
+    background-color: #78fca1;
+    padding: 8px 16px;
+    text-decoration: none;
+    color :black;
+}
+
+.dropdown {
+	text-align: center;
+    border-bottom: 1px solid #555;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 197px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #555;
+    color: white;
+}
+/*CSS ZA SEARCH*/
+.search 
+{
+  width: 196px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #d9d9dd;
+  background-image: url('slike/searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 10px 20px 10px 40px;
+}
+
+/*CSS ZA SLIDER*/
+.mySlides {
+  display: none;
+}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+}
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+  background: #58e483;
+}
+/* Position the "prev button" to the left */
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+  background: #78fca1;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/*CSS ZA GALERIJA*/
+.galerijaTable
+{
+    margin: 0 auto;
+}
+
+.galerijaTD
+{
+    padding: 10px;
+}
+
+.zaAnim
+{
+    position: relative;
+}
+
+/*CSS ZA O NAMA*/
+.kratice
+{
+    margin: 0 auto;
+}
+
+.kraticeTD
+{
+    padding: 10px;
+}
+
+/*CSS ZA KONTAKT*/
+.kontakt
+{
+  margin: 0 auto;
+  width: 300px;
+  height: 580px;
+}
+.paragrafBody
+{
+    border: 1px solid;
+    text-align: center;
+    background-color: #d9d9dd;
+}
+/*CSS ZA CONTACT FORMS*/
+form
+{
+    width: 800px;
+    height: 430px;
+    margin: 0 auto;
+    font-size: 20px; 
+}
+#results
+{
+    width: 800px;
+    height: 430px;
+    margin: 0 auto;
+    font-size: 20px; 
+    display: none; 
+}
+input
+{
+  background-color: #d9d9dd;
+}
+input[type=button]
+{
+  background-color: #78fca1;
+}
+input[type=reset]
+{
+  background-color: #78fca1;
+}
+
+/*CSS ZA UREDE */
+.uredi
+{
+    width: 798px;
+    height: 600px;
+}
